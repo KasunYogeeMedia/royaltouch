@@ -1,0 +1,176 @@
+/* Importer
+-----------------------------------------------------------------*/
+.trx_importer {
+	overflow:hidden;
+}
+.trx_importer_section {
+	width: 45%;
+	float:left;
+	border: 2px groove #e0e0e0;
+	margin: 2em 0 0 0;
+	padding: 1em 2em 2em;
+}
+.trx_exporter_section {
+	width: 45%;
+	float:right;
+	border: 2px groove #e0e0e0;
+	margin: 2em 2em 0 0;
+	padding: 1em 2em 2em;
+}
+
+
+/* Override options
+-----------------------------------------------------------------*/
+#good_wine_shop_override_options_tabs > ul {
+	margin-bottom:0;
+	position:relative;
+	z-index:1;
+}
+#good_wine_shop_override_options_tabs > ul > li {
+	display:inline-block;
+	margin:0;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border:1px solid #ddd;
+	border-bottom:none;
+}
+#good_wine_shop_override_options_tabs > ul > li > a {
+	display:block;
+	padding: 0.3em 0.5em;
+	text-decoration:none;
+}
+#good_wine_shop_override_options_tabs > ul > li.ui-state-active > a {
+	position:relative;
+	top: 1px;
+	background-color:#fff;
+}
+#good_wine_shop_override_options_tabs > ul > li+li {
+	margin-left:3px;
+}
+.good_wine_shop_override_options_section {
+	padding:1em;
+	border:1px solid #ddd;
+}
+.good_wine_shop_override_options_section+.good_wine_shop_override_options_section {
+	display:none;
+}
+.good_wine_shop_override_options_item {
+	margin-bottom:1em;
+	overflow:hidden;
+}
+.good_wine_shop_override_options_item_title {
+	margin:0.5em 0.5em 0.5em 0;
+	max-width:95%;
+	width: 190px;
+	padding-right:20px;
+	position: relative;
+	float:left;
+}
+.good_wine_shop_override_options_item_checkbox .good_wine_shop_override_options_item_title {
+	margin-top:0.2em;
+}
+.good_wine_shop_override_options_item_data {
+	float:left;
+	width:100%;
+	max-width:220px;
+}
+.good_wine_shop_override_options_item_field {
+	position:relative;
+}
+.good_wine_shop_override_options_item_checkbox .good_wine_shop_override_options_item_label {
+	display:inline-block;
+	margin: 0.5em 0;
+}
+.good_wine_shop_override_options_item_switch .good_wine_shop_override_options_item_label,
+.good_wine_shop_override_options_item_radio .good_wine_shop_override_options_item_label {
+	display:inline-block;
+	margin: 0.5em 1em 0.5em 0;
+}
+.good_wine_shop_override_options_item_description {
+	font-style: italic;
+	font-size:0.9em;
+}
+.good_wine_shop_override_options_item input[type="text"],
+.good_wine_shop_override_options_item select {
+	width:100%;
+	max-width:220px;
+}
+
+/* Inherit state */
+.good_wine_shop_override_options_inherit_lock {
+	position:absolute;
+	z-index:1;
+	right: 0;
+	top: 0;
+	display:block;
+	width:18px;
+	height:18px;
+	line-height:18px;
+	background-color:#d0d0d0;
+	color:#4c4c4c;
+	text-align:center;
+	border-radius: 2px;
+	-webkit-transition: all ease .3s;
+	   -moz-transition: all ease .3s;
+	    -ms-transition: all ease .3s;
+	     -o-transition: all ease .3s;
+	        transition: all ease .3s;
+}
+.good_wine_shop_override_options_inherit_off .good_wine_shop_override_options_inherit_lock {
+	background-color:#4cb2e1;
+	color:#ffffff;
+}
+.good_wine_shop_override_options_inherit_lock:before {
+	font-family:'fontello';
+	content: '\e82b';
+	padding:0;
+	margin:0;
+}
+.good_wine_shop_override_options_inherit_off .good_wine_shop_override_options_inherit_lock:before {
+	content: '\e8a9';
+}
+.good_wine_shop_override_options_inherit_cover {
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background-color:rgba(0,0,0,0.5);
+	background-image:url(../images/stripe_black.png);
+	z-index:3;
+}
+.good_wine_shop_override_options_inherit_label {
+	position:absolute;
+	display:inline-block;
+	left:50%;
+	top:50%;
+	margin:-10px 0 0 -30px;
+	font-size:20px;
+	font-weight:bold;
+	color:#fff;
+}
+
+
+/* TGMA
+-----------------------------------------------------------------*/
+#setting-error-tgmpa {
+	display:block;
+}
+.tgmpa_line_template {
+	display: block;
+	margin: 0.5em 0.5em 0 0;
+	clear: both;
+}
+.tgmpa_version {
+	float: right;
+	padding: 0em 1.5em 0.5em 0;
+}
+.tgmpa_column_version {
+	min-width: 32px;
+	text-align: right;
+	float: right;
+}
+
+.meta-box-sortables select {
+	box-sizing: border-box;
+}

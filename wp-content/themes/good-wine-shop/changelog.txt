@@ -1,0 +1,97 @@
+Version 1.1.5
+    Added:
+        - Compatibility with WP 5.8.2
+       	- Compatibility with PHP 8
+
+    Fixed:
+        - Update plugins to their latest versions
+
+    Changed:
+        - Update demo data
+
+Version 1.1.4
+    Added:
+        - Compatibility with WP 5.3.2
+       	- Compatibility with ThemeREX Updater
+       	- Compatibility with elegro Crypto Payment
+
+    Fixed:
+        - Update plugins to their latest versions
+
+    Changed:
+        - Update demo data
+
+
+Version 1.1.3
+    	Added:
+    		- Compatibility with WP 5.2.2
+    		- Compatibility with PHP7.3
+			- Contact Form 7
+
+        Fixed:
+            - Update plugins to their latest versions
+            - Widget Slider
+            - Update TRX Addons plugin
+
+        Changed:
+    		- Update demo data
+
+Version 1.1.2
+    Fixed:
+    - Scripts libraries updated
+    - Update plugins to their latest versions
+
+Version 1.1.1
+    Added:
+            - Compatibility with Gutenberg
+            - WP GDPR Compliance plugin
+            - Alert to Demo data installation
+            - Privacy Policy page
+    Fixed:
+            - Compatibility with WP 5.0
+            - Update plugins to their latest versions
+            - Improve theme styles
+            - Update documentation
+            - Contact form
+            - Update TRX Addons plugin
+    Changed:
+            - Update default contact forms to make them GDPR-compliant
+            - Update demo data
+
+Version 1.1.0
+     Fixed:
+     - Compatibility with PHP7
+     - Compatibility with WordPress 4.9.4
+     - WooCommerce cart functionality
+     - Color scheme saving options in Customizer
+
+     Changed:
+     - Move Importer to ThemeREX Addons plugin
+     - Update plugins to their latest versions
+     - Update documentation
+
+Version 1.1.Dev.05
+    good_wine_shop_fgc() function fixed in ../includes/utils.php
+	* Fixed Added to cart
+		\themes\good-wine-shop\js\_init.js ( jQuery('body').bind('added_to_cart', function() { ... )
+	* Fixed Add buttons to quantity
+		\themes\good-wine-shop\js\_init.js {}
+	* Fixed: Load saved values into color schemes
+		\themes\good-wine-shop\theme-options\theme.customizer.php
+	* Fixed: Content and Sidebar
+		\themes\good-wine-shop\style.css
+
+Version 1.0.3
+    The theme is now compatible with version WooCommerce 3.0 and higher
+    Plugins updated
+    Contact form validation fixed
+
+Version 1.0.2
+	Documentation updated
+
+Version 1.0.1
+	Plugins updated
+	Demo data updated
+
+Version 1.0
+	Release

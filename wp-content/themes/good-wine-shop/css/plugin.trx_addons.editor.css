@@ -1,0 +1,7 @@
+/* Lists */
+ul.trx_addons_list {
+	padding-left:1.3em;
+}
+ul.trx_addons_list > li:before {
+	left: -1.3em;
+}

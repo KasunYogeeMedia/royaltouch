@@ -1,0 +1,31 @@
+/*
+ Theme Name:   Good Wine Shop Child
+ Theme URI:    http://goodwine.axiomthemes.com/
+ Description:  Good Wine Shop Child Theme
+ Author:       AxiomThemes
+ Author URI:   http://axiomthemes.com/
+ Template:     good-wine-shop
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         flexible-header, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, full-width-template, microformats, post-formats, theme-options, threaded-comments, translation-ready
+ Text Domain:  good-wine-shop-child
+*/
+
+.sc_slider_controller_info{
+    left: 25% !important;
+}
+.sc_item_descr.sc_content_descr.sc_align_center{
+	    text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+	font-size:18px;
+}
+span.sc_slider_controller_info_cats{
+	display:none;
+}
+span.sc_slider_controller_info_title{
+	background: #ffffff8a;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+	font-size: 18px !important;
+}

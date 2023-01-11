@@ -1,0 +1,19 @@
+/* WPBakery Page Builder Extension Bundle
+----------------------------------------------------------------- */
+
+/* Tooltip */
+.tooltipster-content .wpb_text_column[class*="scheme_"] {
+	padding: 1.5em 1em;
+}
+.tooltipster-base.tooltipster-light {
+	border: none;
+	border-radius: 0;
+	box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);
+}
+.tooltipster-base.tooltipster-light .tooltipster-arrow {
+	display:none;
+}
+.tooltipster-base.tooltipster-light .tooltipster-content {
+	padding:0;
+	border: none;
+}

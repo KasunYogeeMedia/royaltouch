@@ -1,0 +1,144 @@
+/* Essential Grid styles
+----------------------------------------------------------------- */
+
+.flat-light .esg-filters .esg-sortbutton-order,
+.flat-light .esg-filters .esg-cartbutton-order {
+	line-height:36px;
+	margin:0;
+}
+.flat-light .esg-filters .esg-sortbutton {
+	padding-right: 0;
+}
+
+
+/* Wine list */
+.esg-grid .eg-winelist-content {
+	border: none;
+	padding:0.1em 2em 1.5em;
+}
+.esg-grid .eg-winelist-element-0 {
+	margin-top: 0.2em;
+	line-height:1.15em;
+}
+.esg-grid .eg-winelist-element-25 {
+	padding:0;
+	margin-top:0.2em;
+}
+
+/* GOOD WINE SHOP */
+.eg-good-wine-shop-content {
+    position: absolute;
+    left: 47.2973%;
+    top: 55px;
+    width: 50%;
+}
+.eg-good-wine-shop-element-1-a .eg-good-wine-shop-element-1,
+.eg-good-wine-shop-element-0-a .eg-good-wine-shop-element-0,
+.eg-good-wine-shop-element-1-a .eg-good-wine-shop-element-1:hover,
+.eg-good-wine-shop-element-0-a .eg-good-wine-shop-element-0:hover,
+.eg-good-wine-shop-element-25 {
+    font-family: 'Crimson Text', cursive !important;
+    letter-spacing: 2px;
+}
+.esg-grid .mainul li.eg-good-wine-shop-wrapper .esg-media-poster {
+    left: 32px;
+}
+
+/* GOOD WINE PRODUCT */
+.eg-good-wine-product-wrapper .icons {
+    position: absolute;
+    z-index: 102;
+    left: 50%;
+    top: 50%;
+    width: 139px;
+    height: auto;
+    margin-top: -33px;
+    -webkit-transform: translateX(-50%) translateY(-50%) scale(0.3, 0.3);
+    -moz-transform: translateX(-50%) translateY(-50%) scale(0.3, 0.3);
+    -ms-transform: translateX(-50%) translateY(-50%) scale(0.3, 0.3);
+    transform: translateX(-50%) translateY(-50%) scale(0.3, 0.3);
+    -webkit-transition: all .5s cubic-bezier(0.6, -0.28, 0.735, 0.045) 0s;
+    -moz-transition: all .5s cubic-bezier(0.6, -0.28, 0.735, 0.045) 0s;
+    -ms-transition: all .5s cubic-bezier(0.6, -0.28, 0.735, 0.045) 0s;
+    -o-transition: all .5s cubic-bezier(0.6, -0.28, 0.735, 0.045) 0s;
+    transition: all .5s cubic-bezier(0.6, -0.28, 0.735, 0.045) 0s;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.eg-good-wine-product-wrapper .icons a {
+    z-index: 10;
+    display: block !important;
+    text-align: center;
+    font-weight: 900 !important;
+}
+.eg-good-wine-product-wrapper .icons a + a {
+    margin-top: 10px;
+}
+.eg-good-wine-product-wrapper .icons a.added_to_cart {
+    display: none;
+}
+
+.eg-good-wine-product-wrapper:hover .icons {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: translateX(-50%) translateY(-50%) scale(1, 1);
+    -moz-transform: translateX(-50%) translateY(-50%) scale(1, 1);
+    -ms-transform: translateX(-50%) translateY(-50%) scale(1, 1);
+    transform: translateX(-50%) translateY(-50%) scale(1, 1);
+    -webkit-transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
+    -moz-transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
+    -ms-transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
+    -o-transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
+    transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275) 0s;
+}
+
+.eg-good-wine-product-wrapper .esg-entry-cover,
+.eg-good-wine-product-wrapper .eg-good-wine-product-container {
+    height: 100% !important;
+}
+.eg-good-wine-product-wrapper .esg-entry-cover {
+    z-index: 3;
+}
+.eg-good-wine-product-wrapper .esg-cc,
+.eg-good-wine-product-wrapper .esg-center {
+    position: relative;
+    width: 100% !important;
+    height: 100% !important;
+    top: 0 !important;
+}
+
+.eg-good-wine-product-element-26,
+.eg-good-wine-product-element-26-a,
+.eg-good-wine-product-element-0,
+.eg-good-wine-product-element-0-a {
+    font-family: "Crimson Text", cursive !important;
+    letter-spacing: 0.05em;
+    max-height: 3em;
+    overflow: hidden;
+
+}
+.eg-good-wine-product-element-26,
+.eg-good-wine-product-element-26-a {
+    letter-spacing: 0.1125em;
+}
+.eg-good-wine-product-element-26 {
+    display: inline !important;
+}
+.eg-good-wine-product-element-27 {
+    font-family: "Lato", sans-serif !important;
+}
+.eg-good-wine-product-element-27 ins {
+    font-style: normal;
+}
+.eg-good-wine-product-element-27 del {
+    font-size: 0.7895em;
+    margin-right: 6px;
+}
+.eg-good-wine-product-wrapper span.amount > .decimals {
+    font-size: 0.5625em !important;
+    position: relative !important;
+    top: 0.3em !important;
+}
+.eg-good-wine-product-content {
+    height: 126px;
+}
